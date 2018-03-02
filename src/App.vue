@@ -1,7 +1,13 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+	<div id="app">
+		<router-view/>
+		
+		<div id="footer">
+			<a id="github" href="https://github.com/sirryanscott/creative3.git" target="_blank">
+				<img src="/static/images/GitHub_Logo.png"></img>
+			</a>
+		</div>
+	</div>
 </template>
 
 <script>
@@ -18,5 +24,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+img {
+	margin-top: 200px;
+	width: 10%;
 }
 </style>
